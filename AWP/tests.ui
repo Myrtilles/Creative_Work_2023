@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>tests</class>
+ <widget class="QMainWindow" name="tests">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>510</width>
+    <height>274</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 245, 240);
+border-color: rgb(182, 187, 183);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QCommandLinkButton" name="commandLinkButton_3">
+      <property name="styleSheet">
+       <string notr="true">font: 25 15pt &quot;Bahnschrift Light SemiCondensed&quot;;
+selection-color: rgb(255, 225, 215);
+background-color: rgb(255, 225, 215);</string>
+      </property>
+      <property name="text">
+       <string>Уровень стресса</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCommandLinkButton" name="tempertestButton">
+      <property name="styleSheet">
+       <string notr="true">font: 25 15pt &quot;Bahnschrift Light SemiCondensed&quot;;
+selection-color: rgb(255, 225, 215);
+background-color: rgb(255, 225, 215);</string>
+      </property>
+      <property name="text">
+       <string>Тип темперамента</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QCommandLinkButton" name="commandLinkButton_2">
+      <property name="styleSheet">
+       <string notr="true">font: 25 15pt &quot;Bahnschrift Light SemiCondensed&quot;;
+selection-color: rgb(255, 225, 215);
+background-color: rgb(255, 225, 215);</string>
+      </property>
+      <property name="text">
+       <string>Склонность к формированию зависимостей</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>510</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
